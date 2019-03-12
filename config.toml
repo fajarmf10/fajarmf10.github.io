@@ -1,0 +1,100 @@
+#  StackOverflowID = "5429719/fajar-maulana-f"
+#  GithubID = "FajarMF20"
+#  TwitterID = "TheFajarMF_"
+#  LinkedInID = "fajar-maulana-firdaus-99bb50111"
+#  FacebookID = "FajarMF28"
+#  InstagramID = "thefajarmf"
+#  TelegramID = "fajarmf28"
+#  RedditID = "sosispanggang"
+#  Email = "fajarmf78@gmail.com"
+#  Mobile = "+62-822-3293-0001"
+#  PayPalMeID = "https://www.paypal.me/fajarmf"
+#  disqusShortname = ''
+
+## Basic Configuration
+
+baseurl = "https://fajarmf10.github.io"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Fajar Maulana Firdaus"
+title = "FajarMF"
+
+theme = "goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Fajar Maulana Firdaus"
+intro = "Just a simple writer."
+description = "I am a developer. I like coding, some sports, nature, music, and travel. On this websites, you can expect my projects and blog posts about everything I love. <br/><br/> \"Perhaps it's better if I live in your heart, where the world can't see me. If I'm dead, there will be no stain on our love.\""
+authorimage = "https://secure.gravatar.com/avatar/a4b832be840aaa3b71f0f964fffb2237?s=160&d=identicon&r=g"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+#description = ""
+keywords = "Fajar Maulana Firdaus, blog, personal"
+
+## Social Accounts
+[params.social]
+github = "FajarMF10"
+instagram = "thefajarmf"
+#xing = "<username>"
+linkedin = "fajar-maulana-firdaus-99bb50111"
+twitter = "thefajarmf_"
+facebook = "fajarmf28"
+#google = "<username>"
+stackoverflow = "5429719/fajar-maulana-f"
+#lastfm = "<username>"
+#goodreads = "<username>"
+#gitlab = "<username>"
+#bitbucket = "<username>"
+#fivehundredpx = "<username>"
+#flickr = "<username>"
+#foursquare = "<username>"
+#hackernews = "<username>"
+#kickstarter = "<username>"
+#patreon = "<username>"
+#pintrest = "<username>"
+steam = "sosispanggang"
+reddit = "sosispanggang"
+#snapchat = "<username>"
+youtube = "UCDCNKzwJ-QtY_hRIWxSgAtg"
+#keybase = "<username>"
+twitch = "FajarMF_"
+soundcloud = "unifive-band"
+#tumblr = "<username>"
+#strava = "<username>"
+#skype = "<username>"
+telegram = "FajarMF28"
+whatsapp = "+6282232930001"
+email = "fajarmf78@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Fajar Maulana Firdaus. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "post"
+    url = "/post/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
