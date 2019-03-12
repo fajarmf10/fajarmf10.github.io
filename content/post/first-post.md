@@ -7,8 +7,8 @@ draft = false
 showpagemeta = true
 showcomments = true
 slug = ""
-tags = ["gavin", "belson", "hooli", "hardware"]
-description = "A post about the amazingness of Gavin Belson"
+tags = ["fajar", "first post", "blog", "personal"]
+description = "First movement is the hardest thing in this world"
 
 +++
 
